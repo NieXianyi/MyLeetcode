@@ -1,5 +1,7 @@
 import Related.ListNode;
 //题目： 两个有序的链表，合并成一个
+//list1 = [1,2,4], list2 = [1,3,4]
+//Output: [1,1,2,3,4,4]
 
 //思路： 用dummy头结点技巧，新建一个值为-1的dummy，让p =dummy
 //对于两个链表一样的部分：谁大p.next连谁，让后移动该链表的指针
